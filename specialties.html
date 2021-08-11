@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body dir="rtl">
+    <!-- upper Nav -->
+    <div style="background-color: #4057a6 ;" class="upper-nav" dir="ltr">
+        <div class="container">
+            <span class="brands">
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-qrcode"></i></a>
+
+        </span>
+            <span><i class="fa fa-phone"></i>(00966)-544305306</span>
+
+            <span>
+            <a style="text-decoration: none;" class="text-white " href="mailto:edu@oyoonk.com">
+                <i class="fa fa-envelope"></i> edu@oyoonk.com
+            </a>
+        </span>
+        </div>
+
+        <!-- QR Code modal  -->
+
+        <!-- Modal -->
+        <div class="modal qr fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">كود الواتساب </h5>
+                        <button type="button" class="close main-close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img width="250px" src="imgs/qr.jpeg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button style="background-color: #f00;" type="button" class="btn btn-danger" data-dismiss="modal">اغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/logo.svg" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link private" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link private " href="#">نبذة عنا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link private " href="#">التخصصات</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a style="color:rgb(64 87 166)" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        خدماتنا
+                    </a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="specialties.html">القبول الجامعي للبكالوريوس</a>
+                        <a class="dropdown-item" href="master.html">القبول الجامعي للدراسات العليا</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="canadian-board.html">القبول في برنامج المعادلة للبورد الكندي</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link private " href="#">المقالات</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- canadian board -->
+    <div class="canadian">
+        <nav aria-label="breadcrumb" class="bread-holder">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="index.html">
+                        <i class="fas fa-home ml-1"></i> الرئيسية
+                    </a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <i class="fas fa-book ml-1"></i> التخصصات
+                </li>
+            </ol>
+        </nav>
+        <div class="container-fluid">
+            <h2>
+                التخصصات
+            </h2>
+
+            <span class="alert alert-info mt-2 mb-3 d-inline-block"> <strong>* تنويه : </strong> هذه ليست جميع التخصصات المتاحة </span>
+
+
+
+            <div class="row  whats-on specialities ">
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/doctor.jpeg" alt="">
+                        <div class="whats-expand trans">
+                            <p>الطب</p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>كلية الطب</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <!--1-->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/dent.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>طب الاسنان</p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4> طب الاسنان</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/pharm.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>صيدلة</p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>كلية الصيدلة</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/nature.jfif" alt="">
+                        <div class="whats-expand trans">
+                            <p>علاج طبيعي
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>كلية العلاج الطبيعي</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/nurse.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                التمريض
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4> التمريض </h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/civil.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                الهندسة المدني
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>الهندسة المدنية</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/arch.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                الهندسة المعماري
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>الهندسة المعماري</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/mechanic.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                الهندسة الميكانيكي
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>الهندسة الميكانيكي</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/comuter.png" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                هندسة الحاسب
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4> هندسة الحاسب</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/docEng.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                الهندسة الطبية
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4> الهندسة الطبية</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/psy.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                علم النفس
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4> علم النفس</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="whats-img">
+                        <img class=" img-fluid" src="imgs/interior.jpg" alt="">
+                        <div class="whats-expand trans">
+                            <p>
+                                التصميم الداخلي
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="whats-desc">
+                        <h4>التصميم الداخلي</h4>
+                        <p>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <span class="alert alert-info animated d-inline-block ">لم تجد التخصص الذي تبحث عنه ؟ من فضلك تواصل  <a class="font-weight-bold" href="https://api.whatsapp.com/send?phone=+201282414570">
+                   معنا
+                </a> </span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+
+        <p>جميع الحقوق محفوظة &copy;</p>
+        <p class="brands-p">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google"></i>
+        </p>
+
+    </footer>
+
+    <a class="Whatsapp animated" href="https://api.whatsapp.com/send?phone=00966544305306">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
