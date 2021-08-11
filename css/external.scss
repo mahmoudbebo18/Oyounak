@@ -944,28 +944,12 @@ $secColor: #ffaa00;
 
 // Modal Config
 .modal-open .modal {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    z-index: 8888888;
     .modal-dialog {
         .modal-content {
             padding: 15px;
             .modal-header {
                 h5 {
                     color: $mainColor;
-                }
-                button {
-                    background-color: transparent;
-                    border: 1px solid #ccc;
-                    outline: none;
-                    border-radius: 5px;
-                    position: absolute;
-                    top: 10px;
-                    left: 10px;
-                    i {
-                        color: $secColor;
-                    }
                 }
             }
             .modal-body {
@@ -987,7 +971,6 @@ $secColor: #ffaa00;
                     }
                 }
             }
-            .modal-footer {}
         }
     }
 }

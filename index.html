@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -17,43 +18,48 @@
     <div style="background-color: #4057a6 ;" class="upper-nav" dir="ltr">
         <div class="container">
             <span class="brands">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-qrcode"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" data-toggle="modal" data-target="#sideModalTR"><i class="fab fa-whatsapp"></i></a>
 
-        </span>
+            </span>
             <span><i class="fa fa-phone"></i>(00966)-544305306</span>
 
             <span>
-            <a style="text-decoration: none;" class="text-white " href="mailto:edu@oyoonk.com">
-                <i class="fa fa-envelope"></i> edu@oyoonk.com
-            </a>
-        </span>
+                <a style="text-decoration: none;" class="text-white " href="mailto:edu@oyoonk.com">
+                    <i class="fa fa-envelope"></i> edu@oyoonk.com
+                </a>
+            </span>
         </div>
 
-        <!-- QR Code modal  -->
+        <!-- To change the direction of the modal animation change .right class -->
+        <div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
-        <!-- Modal -->
-        <div class="modal qr fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">كود الواتساب </h5>
-                        <button type="button" class="close main-close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+            <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+            <div class="modal-dialog modal-side modal-bottom-right" role="document">
+
+
+                <div class="modal-content" style="border-radius: 10px;">
+                    <div class="modal-header" style="padding: 0 0 15px;">
+                        <h4 style="    color: #293070;
+                        text-align: right;
+                        font-weight: bold;" class="modal-title w-100" id="myModalLabel">كود الواتساب</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                     <div class="modal-body">
-                        <img width="250px" src="imgs/qr.jpeg" alt="">
+                        <img width="250px" src="imgs/qr.jpeg">
                     </div>
-                    <div class="modal-footer">
-                        <button style="background-color: #f00;" type="button" class="btn btn-danger" data-dismiss="modal">اغلاق</button>
+                    <div class="modal-footer" style="padding:0">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">اغلاق</button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Side Modal Top Right -->
 
     </div>
 
@@ -291,8 +297,8 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                     #1 السؤال الاول ؟؟
-                    </a>
+                            #1 السؤال الاول ؟؟
+                        </a>
                     </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
@@ -307,8 +313,8 @@
                 <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      #2 السؤال الثاني ؟؟
-                    </a>
+                            #2 السؤال الثاني ؟؟
+                        </a>
                     </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
@@ -323,8 +329,8 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     #3 السؤال الثالث ؟؟
-                    </a>
+                            #3 السؤال الثالث ؟؟
+                        </a>
                     </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
@@ -339,8 +345,8 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                     #4 السؤال الرابع ؟؟
-                    </a>
+                            #4 السؤال الرابع ؟؟
+                        </a>
                     </h4>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false">
@@ -387,6 +393,8 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 
