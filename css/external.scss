@@ -954,15 +954,6 @@ $secColor: #ffaa00;
             }
             .modal-body {
                 padding: 15px 15px 0;
-                button {
-                    border-radius: 5px 0px 0px 5px;
-                    background-color: $mainColor;
-                    color: #fff;
-                    border: 1px solid $mainColor;
-                    &:focus {
-                        box-shadow: none;
-                    }
-                }
                 input {
                     border: 1px solid #ccc;
                     border-left: none;

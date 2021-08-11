@@ -756,13 +756,6 @@ body {
     color: #4057a6; }
   .modal-open .modal .modal-dialog .modal-content .modal-body {
     padding: 15px 15px 0; }
-    .modal-open .modal .modal-dialog .modal-content .modal-body button {
-      border-radius: 5px 0px 0px 5px;
-      background-color: #4057a6;
-      color: #fff;
-      border: 1px solid #4057a6; }
-      .modal-open .modal .modal-dialog .modal-content .modal-body button:focus {
-        box-shadow: none; }
     .modal-open .modal .modal-dialog .modal-content .modal-body input {
       border: 1px solid #ccc;
       border-left: none; }
