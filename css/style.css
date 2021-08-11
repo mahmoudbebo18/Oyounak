@@ -1420,4 +1420,13 @@ footer {
 .breadcrumb-item.active i {
   margin-left: 7px !important; }
 
+@media (max-width: 991px) {
+  .card.master {
+    width: 95% !important; } }
+
+@media (max-width: 430px) {
+  .uni,
+  .not-uni {
+    font-size: 13px; } }
+
 /*# sourceMappingURL=style.css.map */

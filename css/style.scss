@@ -496,3 +496,16 @@ footer {
         margin-left: 7px !important;
     }
 }
+
+.card.master {
+    @media(max-width: 991px) {
+        width: 95% !important;
+    }
+}
+
+@media(max-width:430px) {
+    .uni,
+    .not-uni {
+        font-size: 13px;
+    }
+}
