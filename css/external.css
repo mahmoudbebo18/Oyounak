@@ -813,7 +813,7 @@ nav ol.breadcrumb {
 
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
-  font-family: fontAwesome;
+  font-family: 'fontAwesome';
   padding-right: 0.5rem;
   color: #ffaa00;
   margin: 0 5px 0 10px;
