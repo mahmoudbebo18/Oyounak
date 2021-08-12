@@ -22,7 +22,6 @@
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#" data-toggle="modal" data-target="#sideModalTR"><i class="fab fa-whatsapp"></i></a>
 
             </span>
             <span><i class="fa fa-phone"></i>(00966)-544305306</span>
@@ -76,7 +75,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link private" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+                    <a data-target="main" class="nav-link private" href="#">الرئيسية <span class="sr-only">(current)</span></a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -91,10 +90,10 @@
                     </div>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link private " href="#">نبذة عنا</a>
+                    <a data-target="abo" class="nav-link private " href="#">نبذة عنا</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link private " href="#">التخصصات</a>
+                    <a data-target="spe" class="nav-link private " href="#">التخصصات</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -109,15 +108,13 @@
                     </div>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link private " href="#">المقالات</a>
-                </li>
+
 
             </ul>
 
         </div>
     </nav>
-    <div class="slider text-center">
+    <div class="slider text-center" id="main">
         <div class="overlay"></div>
         <div class="container">
             <div class="row position-relative">
@@ -151,7 +148,7 @@
                 <div class="col-lg">
                     <div class="ser-content">
                         <i class="fas fa-graduation-cap"></i>
-                        <h5>تعرف على معيار قبولك بالجامعات</h5>
+                        <h5>تعرف على التخصصات المتاحة للجامعات</h5>
                         <p>
                             تعرف على متطلبات الجامعات، الدرجات المطلوبة والمستندات، وجميع ما يمكن ان يسهل من اجراءات قبولك الجامعي.
                         </p>
@@ -189,7 +186,7 @@
     </div>
 
     <!-- services -->
-    <div class="about-us">
+    <div class="about-us" id="abo">
         <div class="container">
             <div class="row">
                 <div class="col-md">
@@ -211,7 +208,7 @@
         </div>
     </div>
     <!--   divisions -->
-    <div class="whats-on text-center">
+    <div class="whats-on text-center" id="spe">
         <div class="container">
             <div class="whats-content">
                 <h2 class="text-uppercase">التخصصات</h2>
@@ -227,53 +224,61 @@
                             </div>
                         </div>
                         <div class="whats-desc">
-                            <h4>كلية الطب</h4>
+                            <h4>
+                                <a href="medicen.html">كلية الطب</a>
+                            </h4>
                             <p>
-                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                                يبحث علم الطب البشري في أسباب الأمراض وتشخيصها، ووضع العلاجات المناسبة لها. وقد كان لدى المصريين القدماء نظام طبي متميز أثر بشكل كبير في العلوم الطبية اللاحقة، وتطور علم الطب بشكل ملحوظ في زمن الإغريق واليونان على يد كبار الأطباء والعلماء أمثال أبقراط
+                                وجالينوس وغيره
                             </p>
                         </div>
                     </div>
                     <!--1-->
                     <div class="col-md-3">
                         <div class="whats-img">
-                            <img class=" img-fluid" src="imgs/eng.jpeg" alt="">
+                            <img class=" img-fluid" src="imgs/dent.jpg" alt="">
                             <div class="whats-expand trans">
                                 <p>طب الاسنان</p>
                             </div>
                         </div>
                         <div class="whats-desc">
-                            <h4> طب الاسنان</h4>
+                            <h4>
+                                <a href="dentist.html">طب الاسنان</a>
+                            </h4>
                             <p>
-                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
-                            </p>
+                                إنَّ طب الأسنان هو فرع من فروع الطب، ويختص في معالجة وتشخيص أمراض الفم، والفكين، والأسنان، والأنسجة المحيطة بها. ولا يكون طب الأسنان هادفًا فقط إلى معالجة تلك الأمراض، بل الوقاية منها أيضًا؛ فهو يُعنى بدراسة كل ما يتعلَّق بصحة الفم والأسنان </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="whats-img">
-                            <img class=" img-fluid" src="imgs/doctor.jpeg" alt="">
+                            <img class=" img-fluid" src="imgs/pharm.jpg" alt="">
                             <div class="whats-expand trans">
                                 <p>صيدلة</p>
                             </div>
                         </div>
                         <div class="whats-desc">
-                            <h4>كلية الصيدلة</h4>
+                            <h4>
+                                <a href="pharmacy.html">كلية الصيدلة</a>
+                            </h4>
                             <p>
-                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
-                            </p>
+                                تُعرَّف الصيدلة بشكل عام أنّّها تقنية، أو علم صناعة وتحضير الأدوية الجديدة، وإجراء التعديلات المناسبة على الأدوية القديمة. أما بالنسبة لتخصص الصيدلة، فهو تخصص طبي، وصحي، وظيفته ربط الصحة بعلم الصيدلة، كما يهدِف إلى ضمان، وتوفير، وتأمين استخدام الأدوية
+                                استخدامًا آمنًا، وصحيًا، ومناسبًا، وفعَّالًا </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="whats-img">
-                            <img class=" img-fluid" src="imgs/acc.jpeg" alt="">
+                            <img class=" img-fluid" src="imgs/nature.jfif" alt="">
                             <div class="whats-expand trans">
                                 <p>علاج طبيعي
                                 </p>
                             </div>
                         </div>
                         <div class="whats-desc">
-                            <h4>كلية العلاج الطبيعي</h4>
+                            <h4>
+                                <a href="natural-therapy.html">كلية العلاج الطبيعي</a>
+                            </h4>
                             <p>
-                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة ، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص
+                                يُصنَّف تخصص العلاج الطبيعي أنَّه من فروع الطب، ويُعرَّف العلاج الفيزيائي أنَّه ممارسة طبية، وحركات، وتمارين عندما تكون حركة جسم الإنسان مهددة أو في خطر لأسباب كثيرة سواءًا كانت بسبب كبر السن، أو التعرُّض لإصابة، أو الأمراض، أو بسبب العوامل البيئية المحيطة.
                             </p>
                         </div>
                     </div>
@@ -297,14 +302,14 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                            #1 السؤال الاول ؟؟
+                            #1  لماذا اختار عيونك التعليمية؟
+                            
                         </a>
                     </h4>
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
                     <div class="panel-body">
-                        عيونك التعليمية هي احد اجزاء شركة عيونك ذ.م.م. عيونك التعليمية هي عيونك نحو مستقبل افضل في الجانبين التعليمي و الوظيفي، بتوفير جميع الادوات التي قد يحتاجها الفرد للوصول لهدفه، و بدون اي مقابل. نحن في عيونك التعليمية ندعم التعليم ونرفض ان تقف عند نقطة
-                        معينة، ما دمت على قيد الحياة، فأنت في مرحلة التعلم، لذا فنحن نحاول تيسير كل عسير في سبيل وصولكم لاعلى المراتب. نحن نقوم بالعمل الشاق نيابة عنكم، وكل ما عليكم هو الجد والاجتهاد للوصول لاحلامكم والنهوض بهذه الامة.
+                        - لأننا نقدم جميع خدماتنا بدون اي مقابل، ونضع مصلحة الطالب اولًا. نحرص في عيونك التعليمية على ان يحصل الطالب على بيئة مريحة للتفوق والاجتهاد، و بأقل سعر ممكن.
 
                     </div>
                 </div>
@@ -313,14 +318,13 @@
                 <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            #2 السؤال الثاني ؟؟
+                            #2 ما الوقت المناسب للتقديم للجامعات  ؟؟
                         </a>
                     </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
                     <div class="panel-body">
-                        عيونك التعليمية هي احد اجزاء شركة عيونك ذ.م.م. عيونك التعليمية هي عيونك نحو مستقبل افضل في الجانبين التعليمي و الوظيفي، بتوفير جميع الادوات التي قد يحتاجها الفرد للوصول لهدفه، و بدون اي مقابل. نحن في عيونك التعليمية ندعم التعليم ونرفض ان تقف عند نقطة
-                        معينة، ما دمت على قيد الحياة، فأنت في مرحلة التعلم، لذا فنحن نحاول تيسير كل عسير في سبيل وصولكم لاعلى المراتب. نحن نقوم بالعمل الشاق نيابة عنكم، وكل ما عليكم هو الجد والاجتهاد للوصول لاحلامكم والنهوض بهذه الامة.
+                        - يمكنك التقديم عن طريقنا او عن طريق احدى شركائنا في اي وقت، ونسعد بخدمتكم على مدار الساعة.
 
                     </div>
                 </div>
@@ -329,14 +333,13 @@
                 <div class="panel-heading" role="tab" id="headingThree">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            #3 السؤال الثالث ؟؟
+                            #3  يمكنك التقديم عن طريقنا او عن طريق احدى شركائنا في اي وقت، ونسعد بخدمتكم على مدار الساعة.  ؟؟
                         </a>
                     </h4>
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
                     <div class="panel-body">
-                        عيونك التعليمية هي احد اجزاء شركة عيونك ذ.م.م. عيونك التعليمية هي عيونك نحو مستقبل افضل في الجانبين التعليمي و الوظيفي، بتوفير جميع الادوات التي قد يحتاجها الفرد للوصول لهدفه، و بدون اي مقابل. نحن في عيونك التعليمية ندعم التعليم ونرفض ان تقف عند نقطة
-                        معينة، ما دمت على قيد الحياة، فأنت في مرحلة التعلم، لذا فنحن نحاول تيسير كل عسير في سبيل وصولكم لاعلى المراتب. نحن نقوم بالعمل الشاق نيابة عنكم، وكل ما عليكم هو الجد والاجتهاد للوصول لاحلامكم والنهوض بهذه الامة.
+                        - يمكنك معرفة جميع الاوراق المطلوبة عن طريق التواصل معنا، و نسعد بتقديم كل ما بوسعنا لاكمال اي نواقص ان وجدت.
 
                     </div>
                 </div>
@@ -345,14 +348,14 @@
                 <div class="panel-heading" role="tab" id="headingFour">
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            #4 السؤال الرابع ؟؟
+                            #4 ما هو البورد الكندي؟ وكيف اعرف اذا كنت مؤهل لهذا البرنامج  ؟؟
                         </a>
                     </h4>
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false">
                     <div class="panel-body">
-                        عيونك التعليمية هي احد اجزاء شركة عيونك ذ.م.م. عيونك التعليمية هي عيونك نحو مستقبل افضل في الجانبين التعليمي و الوظيفي، بتوفير جميع الادوات التي قد يحتاجها الفرد للوصول لهدفه، و بدون اي مقابل. نحن في عيونك التعليمية ندعم التعليم ونرفض ان تقف عند نقطة
-                        معينة، ما دمت على قيد الحياة، فأنت في مرحلة التعلم، لذا فنحن نحاول تيسير كل عسير في سبيل وصولكم لاعلى المراتب. نحن نقوم بالعمل الشاق نيابة عنكم، وكل ما عليكم هو الجد والاجتهاد للوصول لاحلامكم والنهوض بهذه الامة.
+                        -يمكنك القراءة اكثر عن البورد الكندي من <a style="font-weight: bold;" href="canadian-board.html">هنا</a> <br> <br>. تستطيع معرفة اذا ما كنت مؤهلًا لبرنامج البورد الكندي عن طريق الاجابة على بعض الاسئلة من <a style="font-weight: bold;"
+                            href="https://q5simgrf1g7.typeform.com/to/fQEClVOM" target="_blank">هنا</a>
 
                     </div>
                 </div>
