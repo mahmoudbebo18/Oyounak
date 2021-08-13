@@ -56,7 +56,7 @@ $(document).ready(function() {
             $(".navbar").css({
                 top: "54px",
             });
-            $(".upper-nav").fadeIn();
+            $(".upper-nav").fadeIn()
         }
     });
 
