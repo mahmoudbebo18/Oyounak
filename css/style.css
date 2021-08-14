@@ -115,7 +115,7 @@ body {
       .upper-nav .brands a .fa-twitter:hover {
         color: #1da1f2; }
       .upper-nav .brands a .fa-facebook-f:hover {
-        color: #3b5998; }
+        color: #fff; }
       .upper-nav .brands a .fa-youtube:hover {
         color: #ff0000; }
 
@@ -1422,5 +1422,30 @@ footer {
   @media (max-width: 991px) {
     .row.justify-content-center .card {
       width: 100% !important; } }
+
+.best-price {
+  position: absolute;
+  right: 0%;
+  top: 29%;
+  padding: 15px;
+  margin: 0;
+  background-color: #ffaa00;
+  color: #fff;
+  /* border-radius: 0 5px 5px 0; */
+  width: 100%;
+  /* z-index: 0; */
+  margin-bottom: 9px;
+  font-size: 18px; }
+
+.animated-1 {
+  animation: zz .4s alternate infinite ease-in;
+  display: block;
+  width: fit-content; }
+
+@keyframes zz {
+  0% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1.01); } }
 
 /*# sourceMappingURL=style.css.map */

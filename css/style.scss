@@ -531,3 +531,33 @@ footer {
         }
     }
 }
+
+.best-price {
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    padding: 15px;
+    margin: 0;
+    background-color: #ffaa00;
+    color: #fff;
+    /* border-radius: 0 5px 5px 0; */
+    width: 100%;
+    /* z-index: 0; */
+    margin-bottom: 9px;
+    font-size: 18px;
+}
+
+.animated-1 {
+    animation: zz .4s alternate infinite ease-in;
+    display: block;
+    width: fit-content;
+}
+
+@keyframes zz {
+    0% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1.01);
+    }
+}
